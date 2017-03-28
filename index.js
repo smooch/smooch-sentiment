@@ -7,10 +7,6 @@ const processor = require('./modules/processor');
 express()
   .get('/', (req, res) => res.send('Welcome to Smooch-Translation.'))
   .post('/processor', bodyParser.json(), processor)
-  .post('/hook', bodyParser.json(), (req, res) => {
-    console.log('MESSAGE', JSON.stringify(req.body, null, 4));
-    res.end();
-  })
   .listen(config.port, () => {
     console.log('Listening on', config.port);
     pipeline.setup()

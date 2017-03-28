@@ -21,7 +21,6 @@ module.exports = content => {
   };
   return google(config.google.key).post('/documents:analyzeSentiment', data)
     .then(sentimentData => {
-      console.log(sentimentData);
       const sentiment = sentimentData.documentSentiment;
       const face = getFace(sentiment.score);
       return {

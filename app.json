@@ -6,7 +6,7 @@
   "keywords": ["smooch", "translate", "node"],
   "env": {
     "GOOGLE_CLOUD_API_KEY": {
-      "description": "API key for Yandex translation API",
+      "description": "API key for Google Cloud services",
       "value": ""
     },
     "SMOOCH_KEY_ID": {
@@ -18,7 +18,7 @@
       "value": ""
     },
     "SERVICE_URL": {
-      "description": "The full base URL of this application. For example, if you name the application \"evil-turkey\" the base url would be \"https://evil-turkey.herokuapp.com\"",
+      "description": "The full base URL of this application. For example, if you name the application \"evil-turkey\" the base url should be \"https://evil-turkey.herokuapp.com\"",
       "value": ""
     }
   }
