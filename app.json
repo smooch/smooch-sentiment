@@ -18,7 +18,7 @@
       "value": ""
     },
     "SERVICE_URL": {
-      "description": "The full base URL of this application. For example, if you name the application \"evil-turtle\" the base url would be \"https://evil-turtle.herokuapp.com\"",
+      "description": "The full base URL of this application. For example, if you name the application \"evil-turkey\" the base url would be \"https://evil-turkey.herokuapp.com\"",
       "value": ""
     }
   }
