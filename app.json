@@ -1,0 +1,25 @@
+{
+  "name": "Smooch sentiment processor",
+  "description": "Detect sentiment of user messages.",
+  "repository": "https://github.com/smooch/smooch-sentiment.git",
+  "logo": "https://website.smooch.io/sm_logo_fb.jpg",
+  "keywords": ["smooch", "translate", "node"],
+  "env": {
+    "GOOGLE_CLOUD_API_KEY": {
+      "description": "API key for Yandex translation API",
+      "value": ""
+    },
+    "SMOOCH_KEY_ID": {
+      "description": "Smooch app level secret key ID",
+      "value": ""
+    },
+    "SMOOCH_SECRET": {
+      "description": "Smooch app level secret key",
+      "value": ""
+    },
+    "SERVICE_URL": {
+      "description": "The full base URL of this application. For example, if you name the application \"evil-turtle\" the base url would be \"https://evil-turtle.herokuapp.com\"",
+      "value": ""
+    }
+  }
+}
