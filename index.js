@@ -5,7 +5,7 @@ const pipeline = require('./modules/pipeline');
 const processor = require('./modules/processor');
 
 express()
-  .get('/', (req, res) => res.send('Welcome to Smooch-Translation.'))
+  .get('/', (req, res) => res.send('Welcome to Smooch-Sentiment.'))
   .post('/processor', bodyParser.json(), processor)
   .listen(config.port, () => {
     console.log('Listening on', config.port);
