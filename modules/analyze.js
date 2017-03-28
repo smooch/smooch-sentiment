@@ -2,13 +2,12 @@ const config = require('../config');
 const google = require('../endpoints/google');
 
 const getFace = score => {
-  if (score > .75) return '😁';
-  if (score > .5) return '😀';
-  if (score > .25) return '🙂';
-  if (score > -.25) return '😐';
-  if (score > -.5) return '😕';
-  if (score > -.75) return '😔';
-  return '😖';
+  if (score > .66) return '😁';
+  if (score > .33) return '😀';
+  if (score > 0) return '🙂';
+  if (score > -.33) return '😐';
+  if (score > -.66) return '😕';
+  return '😞';
 }
 
 module.exports = content => {
