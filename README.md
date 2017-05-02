@@ -32,5 +32,3 @@ Here's a screenshot of a message with the sentiment metadata displayed below the
 ![screen shot 2017-03-28 at 11 28 53 am](https://cloud.githubusercontent.com/assets/2235885/24414081/5418a618-13ab-11e7-9ffd-559d434aa5ee.png)
 
 This screenshot was created using an open source reference implementation of Smooch, [Smooch-Desk](https://github.com/smooch/smooch-desk).
-
-This code is a proof of concept only. **This is not production quality software**. It can be used as a reference to create your own implementation.
