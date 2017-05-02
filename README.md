@@ -1,3 +1,5 @@
+_**Intended use:** This code is a proof of concept and is not meant to be used in production. It should be used as a reference only to create your own implementation._
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This Smooch message processor uses Google Cloud NLP to detect sentiment. The sentiment is added as metadata to the message (along with an emoji representation).
